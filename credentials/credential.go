@@ -77,6 +77,7 @@ var Index = map[string]Credential{
 	"password":    &password{},
 	"certificate": &certificate{},
 	"rsa":         &rsaPair{},
+	"ssh":         &sshPair{},
 }
 
 /*============================
